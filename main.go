@@ -7,7 +7,7 @@ import (
 	"log"
 	"path/filepath"
 
-	"example.com/project/pkg/scanner"
+	"github.com/enenisme/poc_scan/pkg/scanner"
 )
 
 func main() {

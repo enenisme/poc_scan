@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"example.com/project/pkg/utils"
+	"github.com/enenisme/poc_scan/pkg/utils"
 )
 
 type Evaluator struct {

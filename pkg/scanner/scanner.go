@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"example.com/project/pkg/expression"
-	"example.com/project/pkg/model"
-	"example.com/project/pkg/utils"
+	"github.com/enenisme/poc_scan/pkg/expression"
+	"github.com/enenisme/poc_scan/pkg/model"
+	"github.com/enenisme/poc_scan/pkg/utils"
 )
 
 type Scanner struct {

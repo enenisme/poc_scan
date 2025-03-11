@@ -10,7 +10,7 @@ import (
 	"path"
 	"time"
 
-	"example.com/project/pkg/model"
+	"github.com/enenisme/poc_scan/pkg/model"
 )
 
 type HTTPClient struct {
