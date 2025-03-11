@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/enenisme/poc_scan/pkg/model"
 	"gopkg.in/yaml.v2"
-	"example.com/project/pkg/model"
 )
 
 func LoadPOCFromFile(path string) (*model.POC, error) {
