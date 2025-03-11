@@ -1,4 +1,4 @@
-module example.com/project
+module github.com/enenisme/poc_scan
 
 go 1.16
 
