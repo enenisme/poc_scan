@@ -20,10 +20,10 @@ type PocScanResult struct {
 	Info     string
 }
 
-func NewPocScan(url string) *PocScan {
+func NewPocScan(url string, dir string) *PocScan {
 	return &PocScan{
 		url: url,
-		dir: "poc",
+		dir: dir,
 	}
 }
 
